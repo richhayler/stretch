@@ -27,8 +27,6 @@
     "require": {
         "craftcms/cms": "^3.0.0-RC1"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "repositories": [
         {
             "type": "composer",
