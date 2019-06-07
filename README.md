@@ -13,7 +13,7 @@ To install the plugin, follow these steps:
 1. Install with Composer via:
    `composer require richhayler/stretch`
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Collapse CP Nav.
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Stretch.
 
 ### Craft Plugin Store
 You can also install Collapse CP Nav via the **Plugin Store** in the Craft AdminCP.
