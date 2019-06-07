@@ -1,7 +1,7 @@
 # Stretch plugin for Craft CMS 3.x
 Take control of the right pane navigation in the admin. Use this plugin to free up more screen real estate by hiding the CP's right pane. Especially handy when working on entries listings with many columns.
 
-![Screenshot](resources/img/collapse-cp-nav-animation.gif)
+![Screenshot](resources/img/nav.gif)
 
 ## Requirements
 This plugin requires Craft CMS 3.0.0-RC1 or later.
