@@ -25,11 +25,11 @@ Once installed, a persistent **☰** hamburger menu will appear at the top of th
 
 
 ## Issues
-Please report any issues you find to the [Collapse CP Nav issues](https://github.com/hayler/stretch/issues) page.
+Please report any issues you find to the [Collapse CP Nav issues](https://github.com/richhayler/stretch/issues) page.
 
 ## Collapse CP Nav Roadmap
 Some things to do & ideas for potential features:
 
 * _TBD_ we're open to suggestions.
 
-Brought to you by [EaglePeak Consulting](https://www.richhayler.com/)
+Brought to you by [Rich Hayler](https://www.richhayler.com/)
