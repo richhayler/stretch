@@ -3,8 +3,6 @@ Take control of the left pane navigation in the admin.  Use this plugin to free 
 
 ![Screenshot](resources/img/collapse-cp-nav-animation.gif)
 
-_**Note:** The license fee for this plugin is $9 via the Craft Plugin Store._
-
 ## Requirements
 This plugin requires Craft CMS 3.0.0-RC1 or later.
 
