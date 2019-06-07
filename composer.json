@@ -1,5 +1,5 @@
 {
-    "name": "hayler/stretch",
+    "name": "richhayler/stretch",
     "description": "Hide the control panel’s right pane navigation to free up more screen real estate.",
     "type": "craft-plugin",
     "version": "1.0.0",
@@ -14,8 +14,8 @@
     ],
     "support": {
         "email": "hello@hayler.com",
-        "docs": "https://github.com/hayler/stretch/blob/master/README.md",
-        "issues": "https://github.com/hayler/stretch/issues"
+        "docs": "https://github.com/richhayler/stretch/blob/master/README.md",
+        "issues": "https://github.com/richhayler/stretch/issues"
     },
     "license": "proprietary",
     "authors": [
@@ -35,7 +35,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "hayler\\stretch\\": "src/"
+          "richhayler\\stretch\\": "src/"
         }
     },
     "extra": {
