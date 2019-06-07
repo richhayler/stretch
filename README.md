@@ -4,7 +4,7 @@ Take control of the right pane navigation in the admin. Use this plugin to free 
 ![Screenshot](resources/img/nav.gif)
 
 ## Requirements
-This plugin requires Craft CMS 3.0.0-RC1 or later.
+This plugin requires Craft CMS 3.2.0 or later.
 
 ## Installation
 ### Composer
