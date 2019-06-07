@@ -16,7 +16,7 @@ To install the plugin, follow these steps:
 ### Craft Plugin Store
 You can also install Stretch via the **Plugin Store** in the Craft control panel.
 
-## Using Collapse CP Nav
+## Using Stretch
 Once installed, a persistent menu will appear at the top of the control panel on entry edit sections. When you need more desktop space on the admin screens click the menu icon to hide the right details pane.
 
 ## Issues
