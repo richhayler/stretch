@@ -1,0 +1,49 @@
+{
+    "name": "hayler/stretch",
+    "description": "Hide the control panel’s right pane navigation to free up more screen real estate.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "collapse control panel navigation",
+        "control panel",
+        "navigation"
+    ],
+    "support": {
+        "email": "hello@hayler.com",
+        "docs": "https://github.com/hayler/stretch/blob/master/README.md",
+        "issues": "https://github.com/hayler/stretch/issues"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Rich Hayler",
+            "homepage": "https://www.richhayler.com/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "hayler\\stretch\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Stretch",
+        "handle": "stretch",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/hayler/stretch/master/CHANGELOG.md",
+        "class": "hayler\\stretch\\Stretch"
+    }
+}
