@@ -1,51 +1,74 @@
 /**
- * stretch plugin for Craft CMS
+ * Stretch plugin for Craft CMS
  *
- * stretch menu JS
+ * Stretch
  *
  * @author    Rich Hayler
- * @copyright Copyright (c) 2018 Rich Hayler
+ * @copyright Copyright (c) 2019 Rich Hayler
  * @link      https://richhayler.com/projects/stretch
  * @package   Stretch
  * @since     1.0.0
  */
-#global-container #global-sidebar{ display: none !important; }
-#crumbs nav{ display: none !important; }
-#crumbs #nav-toggle { display: block !important; }
+ 
+@media only screen and (min-width: 975px){
 
-body.showing-nav #global-container  #global-sidebar{
-  display: block !important; 
-}
-#global-container{
-  transition: left 250ms ease-in-out !important; 
-  position: relative !important; 
-}
-
-#header, #main-content{
-  width: 100vw !important;
-}
-
-#crumbs {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  width: 10px !important;
-  position: fixed;
-  z-index: 99;
-}
-
-#main-container #crumbs + #main #header, #main-container #crumbs:not(.empty) + #main #header {
-    padding-top: 13px  !important;
-    padding-bottom: 13px !important;
-    padding-left: 60px !important;
-}
-
-@media only screen and (max-width: 1223px){
-  body.ltr #global-container {
-    left: 0px !important; 
-  }
-  #global-container {
+  .edit-entry #content-container {
     position: relative;
+    transition: width 250ms ease-in-out !important;
+  }
+
+  .edit-entry #global-container.stretch #details { display: none !important; }
+
+  .edit-entry #global-container #details {
+    position: relative !important;
+  }
+
+  .edit-entry #main-container #main #main-content #details {
+    top: 0 !important;
+    padding-top: 24px;
+  }
+
+  .edit-entry #main-container #main #main-content #details .meta.read-only {
+    background: #FFF;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 10px 18px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 20, 0.1);
+  }
+
+  .edit-entry #global-container.stretch #content-container {
     width: 100vw !important;
   }
+
+  .edit-entry #details-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    width: 43px;
+    height: 36px;
+    line-height: 37px;
+    background: #F1F5F8;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid rgba(0, 0, 20, 0.1);
+    border-right: none;
+  }
+
+  .edit-entry #details-toggle:after {
+    content: 'expand';
+    font-family: 'Craft';
+    font-size: 16px;
+    width: 43px;
+    height: 36px;
+    line-height: 36px;
+    color: #8f98a3;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  .edit-entry #details-toggle:hover:after {color:#666;}
+
+  .edit-entry #global-container.stretch #details-toggle:after {content: 'collapse';}
+
 }

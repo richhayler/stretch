@@ -1,18 +1,17 @@
 <?php
 /**
- * stretch plugin for Craft CMS
+ * Stretch plugin for Craft CMS
  *
- * stretch menu JS
+ * Stretch
  *
  * @author    Rich Hayler
- * @copyright Copyright (c) 2018 Rich Hayler
+ * @copyright Copyright (c) 2019 Rich Hayler
  * @link      https://richhayler.com/projects/stretch
  * @package   Stretch
  * @since     1.0.0
  */
 
 namespace richhayler\stretch;
-
 
 use Craft;
 use craft\base\Plugin;
@@ -29,6 +28,7 @@ use yii\base\Event;
  * @since     1.0.0
  *
  */
+
 class Stretch extends Plugin
 {
     // Static Properties
@@ -71,13 +71,10 @@ class Stretch extends Plugin
             __METHOD__
         );
 
-
-
         if (!$user || !$user->id || !$request->getIsCpRequest() || $request->getIsConsoleRequest()) {
             return;
         }
 
-        
         if ( $view->getTemplateMode() === 'cp' ){
           // the includeJs method lets us add js to the bottom of the page
           $view->registerAssetBundle(StretchBundle::class);
