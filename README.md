@@ -13,7 +13,7 @@ This plugin requires Craft CMS 3.0.0-RC1 or later.
 To install the plugin, follow these steps:
 
 1. Install with Composer via:
-   `composer require hayler/stretch`
+   `composer require richhayler/stretch`
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Collapse CP Nav.
 
