@@ -25,7 +25,7 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0-RC1"
+        "craftcms/cms": "~3.0.0-RC1"
     },
     "repositories": [
         {
@@ -43,7 +43,7 @@
         "handle": "stretch",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/hayler/stretch/master/CHANGELOG.md",
-        "class": "hayler\\stretch\\Stretch"
+        "changelogUrl": "https://raw.githubusercontent.com/richhayler/stretch/master/CHANGELOG.md",
+        "class": "richhayler\\stretch\\Stretch"
     }
 }
