@@ -1,5 +1,5 @@
 # Stretch plugin for Craft CMS 3.x
-Let your content stretch out and breath. Take control of the right pane navigation on entry edit sections in the control panel. Use this plugin to free up more screen real estate by hiding the control panel's right details pane. Especially handy when working on entries listings with many columns or editing content on smaller screen devices e.g. iPad.
+Let your content stretch out and breathe. Take control of the right pane navigation on entry edit sections in the control panel. Use this plugin to free up more screen real estate by hiding the control panel's right details pane. Especially handy when working on entries listings with many columns or editing content on smaller screen devices e.g. iPad.
 
 ## Requirements
 This plugin requires Craft CMS 3.1.0 or later.
