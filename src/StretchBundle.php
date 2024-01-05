@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2019 Rich Hayler
  * @link      https://richhayler.com/projects/stretch
  * @package   Stretch
- * @since     1.1.0
+ * @since     1.2.0
  */
 
 namespace richhayler\stretch;
@@ -22,7 +22,7 @@ use craft\web\assets\cp\CpAsset;
  *
  * @author    Rich Hayler
  * @package   Stretch
- * @since     1.1.0
+ * @since     1.2.0
  *
  */
 class StretchBundle extends AssetBundle
