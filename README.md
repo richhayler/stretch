@@ -1,8 +1,8 @@
-# Stretch plugin for Craft CMS 3.5
+# Stretch plugin for Craft CMS 4.5
 Let your content stretch out and breathe. Toggle the control panel’s right details pane on entry edit pages to free up more screen real estate for editing your content. Handy when editing content on smaller screen devices e.g. iPad.
 
 ## Requirements
-This plugin requires Craft CMS 3.1.0 or later.
+This plugin requires Craft CMS 4.5.13 or later.
 
 ## Installation
 ### Composer
