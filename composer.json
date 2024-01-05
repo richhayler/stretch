@@ -2,7 +2,7 @@
     "name": "richhayler/stretch",
     "description": "Hide the control panel’s right pane navigation to free up more screen real estate.",
     "type": "craft-plugin",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "keywords": [
         "craft",
         "cms",
@@ -25,7 +25,7 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.5.0"
+        "craftcms/cms": "^4.5.13"
     },
     "repositories": [
         {
