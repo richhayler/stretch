@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2019 Rich Hayler
  * @link      https://richhayler.com/projects/stretch
  * @package   Stretch
- * @since     1.1.0
+ * @since     1.2.0
  */
 
 namespace richhayler\stretch;
@@ -25,7 +25,7 @@ use yii\base\Event;
  *
  * @author    Rich Hayler
  * @package   Stretch
- * @since     1.1.0
+ * @since     1.2.0
  *
  */
 
@@ -45,7 +45,7 @@ class Stretch extends Plugin
     /**
      * @var string
      */
-    public $schemaVersion = '1.1.0';
+    public $schemaVersion = '1.2.0';
 
     // Public Methods
     // =========================================================================
